@@ -1,0 +1,45 @@
+body, html {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	min-height: 100vh;
+  }
+body{
+	background: linear-gradient(to bottom,  rgb(120, 120, 135), rgb(160, 160, 95), rgb(0, 0, 0));
+}
+nav ul {
+	margin-left: auto !important;
+  }
+  .carousel{
+	width: 98%;
+	float: right;
+}
+.img-fluid{
+	height: 900px !important;
+}
+.carousel-caption{
+	left: 5% !important;
+}
+.home {
+	transition: color 0.3s ease;
+  }
+.home:hover{
+	color: aqua !important;
+}
+.fav {
+	transition: color 0.3s ease;
+  }
+.fav:hover {
+	color: gold !important; /* Change the text color to gold on hover */
+  }
+  .go-detail:hover{
+	color: brown !important;
+  }
+@media (max-width: 768px) {
+	.carousel  {
+	  width: 100% !important;
+	}
+	.movie-card{
+		margin-left: 35px;
+	}
+}
